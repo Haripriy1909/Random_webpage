@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    background-color:rgb(240, 255, 251);
+    font-size: 2rem;
+    color:purple;
+    
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+    nav-left: 2rem;
+    background-color: rgb(255, 240, 255);
+    padding: 15px;
+       
+}
+ul:hover{
+    cursor:cell;
+    border-radius: 3rem;
+    color: red;
+}
+li{ 
+    list-style-type: none;
+    font-size: 23px;
+}
+a{
+    text-decoration: none;
+}
+h2{
+    margin-top: 3rem;
+    font-size: 30px;
+    color: blueviolet;
+}
+.company{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 2rem;
+}
+body{
+    background-color: pink;
+    text-align: center;
+    
+}
+button{
+    margin-top: 3rem;
+    padding: 14px;
+    background-color: rgb(212, 0, 255);
+    color: white;
+    border-radius:2rem ;   
+}
+#last{
+    margin-top: 7rem;
+    background-color: black;
+    padding: 2rem;
+    color: white;
+    display:none;
+}
+button:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+h3{
+    margin-top: 3rem;
+    font-size: 30px;
+    color: blueviolet;
+}
+#Service{
+    margin-top:3rem;
+}
+input{
+    padding: 8px;
+    border-radius: 10px;
+    height: 20px;
+    margin-top: 1rem;
+}
+h1{
+    background-color: black;
+    color:rgb(0, 255, 255);
+    padding: 1rem;
+    font-size: 40px;
+}
